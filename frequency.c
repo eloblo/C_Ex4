@@ -24,8 +24,7 @@ int main(int argc, char *argv[]){
 	n->count = 0;  
 	
 	char chr[2];
-	//int i;
-	while(fgets(chr,2,stdin) != NULL){    //read every character in line and insert to the tree
+	while(fgets(chr,2,stdin) != NULL){    //read every character in stdin and insert to the tree
 		short index = (short) chr[0];   
 		if(index >= 97 && index <= 122){  //check if input is a valid letter
 			index -= 97;              //convert letter to index in array
