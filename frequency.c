@@ -4,7 +4,6 @@
 
 #define ALPHABET 26 
 #define WORD 30
-#define TEXT 1024   //the maximum number of character for the line reading from the input
 
 struct node{  //tree's node struct
 	int count;    
